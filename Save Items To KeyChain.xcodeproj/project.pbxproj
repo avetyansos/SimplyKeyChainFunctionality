@@ -15,6 +15,7 @@
 		67A5DDF52356EB4400AC1507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A5DDF42356EB4400AC1507 /* Assets.xcassets */; };
 		67A5DDF82356EB4400AC1507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A5DDF62356EB4400AC1507 /* LaunchScreen.storyboard */; };
 		67A5DE032356EB4400AC1507 /* Save_Items_To_KeyChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5DE022356EB4400AC1507 /* Save_Items_To_KeyChainTests.swift */; };
+		67A5DE0E2356EB5800AC1507 /* KeyChainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5DE0D2356EB5800AC1507 /* KeyChainWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		67A5DDFE2356EB4400AC1507 /* Save Items To KeyChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Save Items To KeyChainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A5DE022356EB4400AC1507 /* Save_Items_To_KeyChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save_Items_To_KeyChainTests.swift; sourceTree = "<group>"; };
 		67A5DE042356EB4400AC1507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A5DE0D2356EB5800AC1507 /* KeyChainWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				67A5DDF62356EB4400AC1507 /* LaunchScreen.storyboard */,
 				67A5DDF92356EB4400AC1507 /* Info.plist */,
 				67A5DDF12356EB4300AC1507 /* Save_Items_To_KeyChain.xcdatamodeld */,
+				67A5DE0D2356EB5800AC1507 /* KeyChainWorker.swift */,
 			);
 			path = "Save Items To KeyChain";
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			files = (
 				67A5DDF32356EB4300AC1507 /* Save_Items_To_KeyChain.xcdatamodeld in Sources */,
 				67A5DDED2356EB4300AC1507 /* ViewController.swift in Sources */,
+				67A5DE0E2356EB5800AC1507 /* KeyChainWorker.swift in Sources */,
 				67A5DDE92356EB4300AC1507 /* AppDelegate.swift in Sources */,
 				67A5DDEB2356EB4300AC1507 /* SceneDelegate.swift in Sources */,
 			);
